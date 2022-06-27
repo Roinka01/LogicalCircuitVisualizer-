@@ -2,6 +2,7 @@
 """
 Module with some helper functions
 """
+import PyQt5 as qtpy
 import traceback
 from qtpy.QtCore import QFile
 from qtpy.QtWidgets import QApplication

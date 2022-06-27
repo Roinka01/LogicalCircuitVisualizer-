@@ -109,8 +109,6 @@ class QDMShape(QWidget):
         self.show()
 
     def paintEvent(self, e):
-        print("im in paint event")
-        print()
         qp = QPainter()
         qp.begin(self)
         self.drawShape(qp)
@@ -154,11 +152,6 @@ class QDMShape(QWidget):
         else:
             qp.setBrush(QColor(200, 0, 0))
             qp.drawRect(xStart, yStart, 40, 40)
-        # qp.drawRect(10, 15, 90, 60)
 
 
-        qp.setBrush(QColor(255, 80, 0, 160))
-        qp.drawRect(130, 15, 90, 60)
 
-        qp.setBrush(QColor(25, 0, 90, 200))
-        qp.drawRect(250, 15, 90, 60)

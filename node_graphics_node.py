@@ -1,7 +1,7 @@
 """
 A module containing Graphics representation of :class:`~nodeeditor.node_node.Node`
 """
-# import PyQt5 as qtpy
+import PyQt5 as qtpy
 from PyQt5.QtCore import QPointF
 from PyQt5.QtGui import QPolygonF
 from qtpy.QtWidgets import QGraphicsItem, QWidget, QGraphicsTextItem
