@@ -41,13 +41,21 @@ On some faulty cases and if the code is not at all a verilog code, the Boolean V
 An example of a Verilog file would be:
 
 `timescale 1ns/1ns
+
 module my_boolean_circuit (output myout, input ina, input inb);
+
   wire x, y , not_inb, not_ina;
+  
   not (not_inb, inb , );
+  
   not (not_ina, ina , );
+  
   and (y, inb , not_ina);
+  
   and (x, ina , not_inb);
+  
   or (myout, x , y);
+  
 endmodule
 We can see here that we have 2 inputs to the circle (ina and inb) and one output (myout).
 Each NOT gate has one entry and one output.
