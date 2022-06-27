@@ -1,0 +1,5 @@
+NOT (inb , ,not_inb);
+NOT (ina , ,not_ina);
+AND (inb , not_ina,y);
+AND (ina , not_inb,x);
+OR (x , y,myout);
