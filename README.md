@@ -7,7 +7,7 @@ The NodeEditor project is using Python PyQt5 package.
 Verilog is a programming language, similar to C in its syntax and structure though is aimed at programming electric circuits. Electric, logic or boolean circuits are a group of boolean gates connected togather to provide some logical functionality. It is composed out of basic boolean gates such as **OR**, **AND**, **XOR**, **NOR**, **NAND** and **NOT**.
 
 **Logical Circuit Visualizer functionality**
-1.	Reading and parsing a valid verilog file:
+1.	**Reading and parsing a valid verilog file**
 
 ![image](https://user-images.githubusercontent.com/62829168/176267670-3f2fb0d4-e052-4379-a39b-83af89d3db4f.png)
 
