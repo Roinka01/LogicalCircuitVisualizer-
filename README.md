@@ -39,11 +39,11 @@ Each such node will hold the graphical shape of the relevant Boolean gate.
 3.	**Limited Graphical Editing Capabilities**
 
 The **LCV** provides a limited graphical editing capability as its main goal is to visualize a verilog circuit code. One may delete a gate (or several gates) in the circuit and save the new circuit. The **LCV** **will generate a new verilog text file holding the new circuit**. 
-You can override an ecisting file or save your file as a new one.
+You can override an existing file or save your file as a new one.
 The **LCV** will translate the new visual circuit back into a valid verilog code.
 If the newly saved verilog file is now loaded back to the **LCV**, it will be displayed graphically with the changes made to it.
 The user may also delete an edge connecting two gates but this deletion will not be saved. The reason is that the **LCV** ignores the user edge connecting and will perform the correct edge connecting between the gates based on their right entries and exists and will not allow a wrong connection.
-The **LCV** does not support adding new gates or modifying existing ones.
+The **LCV** does not support adding new gates or modifying existing ones via the editor. Naturally, every code change done to the file will be reflected visually in the **LCV** if it is reloaded.
 
 **Assumptions**
 1.	The input file is a valid verilog file.
