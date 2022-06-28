@@ -53,7 +53,7 @@ The **LCV** does not support adding new gates or modifying existing ones via the
 **Known Limitations**
 1.	The **LCV** project is not a verilog compiler. It doesn’t create any native or machine code, it doesn’t provide compilation errors or debugging capabilities.
 It assumes a valid verilog code text file as an input.
-2.	If the input code is not a valid verilog program, the results are undefined and depend on the syntax errors in the file. Gates which are properly defined will be presented properly while gates that were incorrectly defined (in verilog terms)  might just be ignored or presented without the proper links inside the circuit (depends on the type of syntax error).
+2.	If the input code is not a valid verilog program, the result is undefined and depends on the syntax errors in the file. Gates which are properly defined will be presented while gates that were incorrectly defined (in verilog terms) might just be ignored or presented without the proper links inside the circuit (depends on the type of the syntax error).
 On some faulty cases and if the code is not at all a verilog code, the Boolean Visualizer will ignore the code and present nothing.
 
 
@@ -77,10 +77,10 @@ module my_boolean_circuit (output myout, input ina, input inb);
   
 endmodule
 
-We can see here that we have 2 inputs to the circle (ina and inb) and one output (myout).
+We can see here that we have 2 inputs to the circle (**ina** and **inb**) and one output (**myout**).
 Each NOT gate has one entry and one output.
 The AND and OR gates have 2 entries and one output each.
-Opening the Verilog file via the LCV and displaying the logical gates as graphical nodes is exemplified via the following video:
+Opening the Verilog file via the **LCV** and displaying the logical gates as graphical nodes is exemplified via the following video:
 
 
 
