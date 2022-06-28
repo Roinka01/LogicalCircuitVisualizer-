@@ -14,6 +14,7 @@ Verilog is a programming language, similar to C in its syntax and structure thou
 
 The **LCV** will parse any given valid verilog code even if the order and relations in between the gates are not in their right logical order as the verilog programming language supports this option.
 The **LCV** will identify the right position of each gate based on its input and output relations.
+It will draw a connecting arc in between the logical gates according to their relation and specify the type of each gate, its inputs and output and booloan graphical presentation.
 
 ![image](https://user-images.githubusercontent.com/62829168/176267946-1815852c-380c-44d1-8604-c3688fcd9f25.png)
 
