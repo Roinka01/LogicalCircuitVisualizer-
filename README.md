@@ -4,6 +4,7 @@
 The Logical Circuit Visualizer (**LCV**) project is aimed to read and graphically present a Logical (Boolean) Electric Circuit programmed in the **Verilog** programming language.
 The **LCV** was written in python and is based over the **NodeEditor** project (https://www.blenderfreak.com/tutorials/node-editor-tutorial-series/ ) written by Pavel Krupala after customizing modifying and enhancing it to support the LCV needs.
 The NodeEditor project is using Python PyQt5 package. 
+Verilog is a programming language, similar to C in its syntax and structure though is aimed at programming electric circuits. Electric, logic or boolean circuits are a group of boolean gates connected togather to provide some logical functionality. It is composed out of basic boolean gates such as **OR**, **AND**, **XOR**, **NOR**, **NAND** and **NOT**.
 
 **Logical Circuit Visualizer functionality**
 1.	Reading and parsing a valid verilog file:
