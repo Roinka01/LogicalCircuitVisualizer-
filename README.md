@@ -1,4 +1,4 @@
-# LogicalCircuitVisualizer-
+# LogicalCircuitVisualizer
 Visualize a Verilog file as a graphical presentation
  
 The Logical Circuit Visualizer (LCV) project is aimed to read and graphically present a Logical (Boolean) electric circuit programmed in the verilog programming language.
@@ -7,6 +7,10 @@ The NodeEditor project is using Python PyQt5 package.
 
 Logical Circuit Visualizer functionality
 1.	Reading and parsing a valid verilog file
+
+![image](https://user-images.githubusercontent.com/62829168/176267670-3f2fb0d4-e052-4379-a39b-83af89d3db4f.png)
+
+
 The LCV will parse any given valid verilog code even if the order and relations in between the gates are not in their right logical order as the verilog programming language supports this option.
 The LCV will identify the right position of each gate based on its input and output relations.
 
@@ -57,6 +61,7 @@ module my_boolean_circuit (output myout, input ina, input inb);
   or (myout, x , y);
   
 endmodule
+
 We can see here that we have 2 inputs to the circle (ina and inb) and one output (myout).
 Each NOT gate has one entry and one output.
 The AND and OR gates have 2 entries and one output each.
