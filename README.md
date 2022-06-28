@@ -1,8 +1,8 @@
 # LogicalCircuitVisualizer
 **Visualize a Verilog file as a Graphical Presentation**
  
-The Logical Circuit Visualizer (**LCV**) project is aimed to read and graphically present a Logical (Boolean) Electric Circuit programmed in the **verilog** programming language.
-The **LCV** was written in python and is based over the NodeEditor project (https://www.blenderfreak.com/tutorials/node-editor-tutorial-series/ ) written by Pavel Krupala after customizing modifying and enhancing it to support the LCV needs.
+The Logical Circuit Visualizer (**LCV**) project is aimed to read and graphically present a Logical (Boolean) Electric Circuit programmed in the **Verilog** programming language.
+The **LCV** was written in python and is based over the **NodeEditor** project (https://www.blenderfreak.com/tutorials/node-editor-tutorial-series/ ) written by Pavel Krupala after customizing modifying and enhancing it to support the LCV needs.
 The NodeEditor project is using Python PyQt5 package. 
 
 Logical Circuit Visualizer functionality
