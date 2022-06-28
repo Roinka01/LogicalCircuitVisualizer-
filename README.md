@@ -22,6 +22,7 @@ It will draw a connecting arc in between the logical gates according to their re
 
 
 2.	**Graphical Presentation Of The Verilog Code**
+
 The **LCV** will present the Boolean circuits graphically. A Boolean (logical) gate will be presented as a node in the node editor.
 The number of supported boolean gates is unlimited.
 The boolean gates alignment on the screen will be done according to their **logical order** based on their **inputs/outputs** and not over their chronological order as appears in the input verilog code file.
@@ -36,6 +37,7 @@ Each such node will hold the graphical shape of the relevant Boolean gate.
 
 
 3.	**Limited Graphical Editing Capabilities**
+
 The **LCV** provides a limited graphical editing capability as its main goal is to visualize a verilog circuit code. One may delete a gate (or several gates) in the circuit and save the new circuit back into a verilog text file.
 The **LCV** will translate the new visual circuit back into a valid verilog code.
 If the newly saved verilog file is now loaded back to the **LCV**, it will be displayed graphically with the changes made to it.
