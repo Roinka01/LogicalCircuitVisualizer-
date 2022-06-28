@@ -5,7 +5,7 @@ The Logical Circuit Visualizer (**LCV**) project is aimed to read and graphicall
 The **LCV** was written in python and is based over the **NodeEditor** project (https://www.blenderfreak.com/tutorials/node-editor-tutorial-series/ ) written by Pavel Krupala after customizing modifying and enhancing it to support the LCV needs.
 The NodeEditor project is using Python PyQt5 package. 
 
-Logical Circuit Visualizer functionality
+**Logical Circuit Visualizer functionality**
 1.	Reading and parsing a valid verilog file:
 
 ![image](https://user-images.githubusercontent.com/62829168/176267670-3f2fb0d4-e052-4379-a39b-83af89d3db4f.png)
