@@ -80,7 +80,17 @@ endmodule
 We can see here that we have 2 inputs to the circle (**ina** and **inb**) and one output (**myout**).
 Each NOT gate has one entry and one output.
 The AND and OR gates have 2 entries and one output each.
-Opening the Verilog file via the **LCV** and displaying the logical gates as graphical nodes is exemplified via the following video:
+
+A quick intro into the **Verilog programming language** and an explanation of the **structure of a verilog file** are presented in the following video:
+
+
+Opening the Verilog file via the **LCV** and displaying its logical gates as graphical nodes are exemplified via the following videos (divided into several parts so they will fit into git ReadMe file):
+
+
+https://user-images.githubusercontent.com/62829168/176286290-938eed3e-c43f-4a54-916a-3553cb6f7e97.mp4
+
+
+
 
 
 
