@@ -48,7 +48,7 @@ The **LCV** does not support adding new gates or modifying existing ones via the
 **Assumptions**
 1.	The input file is a valid verilog file.
 2.	The circuit will contain no more than 2 entries as in a logical circuit. Circuits with more than a pair of entries are parts of larger circuits and not an atomic circuit.
-3.	The logical gates supported are the basic logical gates which exist in the verilog language. I.e. AND, OR, NOT, XOR, NAND, NOR. Private customized gates created by users are not supported however they may be easily added to the LCV (though will require some minimal coding).
+3.	The logical gates supported are the basic logical gates which exist in the verilog language. I.e. AND, OR, NOT, XOR, NAND, NOR. Private customized gates created by users are not supported however they may be easily added to the **LCV** (though will require some minimal coding).
 
 **Known Limitations**
 1.	The **LCV** project is not a verilog compiler. It doesn’t create any native or machine code, it doesn’t provide compilation errors or debugging capabilities.
