@@ -1,5 +1,5 @@
 # LogicalCircuitVisualizer
-**Visualize a Verilog file as a Graphical Presentation**
+**Visualize a Verilog file Graphicaly**
  
 The Logical Circuit Visualizer (**LCV**) project is aimed to read and graphically present a Logical (Boolean) Electric Circuit programmed in the **Verilog** programming language.
 The **LCV** was written in python and is based over the **NodeEditor** project (https://www.blenderfreak.com/tutorials/node-editor-tutorial-series/ ) written by Pavel Krupala after customizing modifying and enhancing it to support the LCV needs.
@@ -81,16 +81,30 @@ We can see here that we have 2 inputs to the circle (**ina** and **inb**) and on
 Each NOT gate has one entry and one output.
 The AND and OR gates have 2 entries and one output each.
 
-A quick intro into the **Verilog programming language** and an explanation of the **structure of a verilog file** are presented in the following video:
+**Introducing the project** and a quick intro into the  **structure of a verilog file** are presented in the following video:
+
+
+
+https://user-images.githubusercontent.com/62829168/176367887-5f71accb-a1cc-46ca-a8e9-2395ccc5b65f.mp4
+
+
 
 
 Opening the Verilog file via the **LCV** and displaying its logical gates as graphical nodes are exemplified via the following videos (divided into several parts so they will fit into git ReadMe file):
 
+**Part 1: Opening a Verilog code file and displaying it via the LCV.**
 
 https://user-images.githubusercontent.com/62829168/176286290-938eed3e-c43f-4a54-916a-3553cb6f7e97.mp4
 
+**Part 2: Updating the file by adding additional lines of codes (additional gates) and displaying it via the LCV.**
 
 
+https://user-images.githubusercontent.com/62829168/176365547-1c032f2c-daec-4735-84bc-0e9bdc62f362.mp4
+
+**Part 3: Deleting gates and saving the new circuit by creating and saving a new Verilog file.**
+
+
+https://user-images.githubusercontent.com/62829168/176366865-f5b584c8-7692-4916-8a3d-b1db9ddcb892.mp4
 
 
 
